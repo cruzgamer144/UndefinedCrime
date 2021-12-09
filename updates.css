@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: consolas;
+}
+
+body{
+	background: #031321;
+}
+
+.content-area{
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 0 0 20px #2196f3;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	top: 400px;
+	position: relative;
+}
+.btn{
+position: relative;
+top: initial;
+padding: 0px 40px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	text-shadow: 0 0 20px #2196f3;
+}
+a:hover{
+	 color: #255784;
+ background: #2196f3;
+ box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
